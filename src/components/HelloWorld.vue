@@ -16,10 +16,11 @@ defineProps({
 <template>
   <div class="text-3xl">gneiru</div>
   <div class="text-lg">Welcome to my website</div>
+  <button class="button" onclick="location.href='src/assets/resume.docx';">Download Resume</button>
   <div class="flex flex-col ">
     <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-cyan-500/50">
       <div class="text-3xl text-yellow-400">About Me</div>
-      I'm {{name}}, a developer from Pangasinan, 23 years old, and an open-source enthusiast
+      <p class="">I'm {{name}}, a developer from Pangasinan, 23 years old, and an open-source enthusiast</p>
     </div>
     <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-cyan-500/50">
       <div class="text-3xl text-yellow-400">Languages & technologies</div>
@@ -86,6 +87,7 @@ defineProps({
           <a href="https://instagram.com/nelrohg" class="m-2 text-black hover:text-white">Instagram</a>
         </div>
       </div>
+      
 
     </div>
   </div>
