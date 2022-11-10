@@ -16,31 +16,30 @@ defineProps({
 <template>
   <div class="text-3xl text-blue-500 font-black italic">gneiru</div>
   <div class="text-lg">Welcome to my website</div>
-  <div class="flex flex-col ">
+  <div class="flex flex-col md:break-words">
     <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900">
       <div class="text-3xl text-yellow-400">About Me</div>
-      <p class="m-2">I'm {{name}}, a developer from Pangasinan, 23 years old.<br>I create websites for my own necessity of the games I had been playing</p>
-    <button class="button" onclick="location.href='./src/assets/Resume.pdf';">Download Resume</button>
+      <p class="m-2">I'm {{name}}, a developer from Pangasinan, 23 years old.<br>I create web app for games I had been playing</p>
 
     </div>
-    <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900">
+    <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900 flex flex-col">
       <div class="text-3xl text-yellow-400">Languages & technologies</div>
-      <div class="m-2">
+      <div class="mt-2">
         JavaScript
         Python
         Php
         C++  
       </div>
-      <div class="m-2">
+      <div>
         Vue.js
         Django
         FastAPI
         TailwindCSS
       </div>
     </div>
-    <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900">
+    <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900 text-ellipsis ">
       <div class="text-3xl text-yellow-400 m-4">Projects</div>
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
         <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg ">Personal Health Care Guide</div>
           <a href="http://youtube.com/watch?v=_PT9XjHJU2M" target="_blank" rel="noopener noreferrer">
@@ -81,7 +80,7 @@ defineProps({
       
       </div>
       
-  <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900 break-words">
+  <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900 break-all">
     <div class="text-3xl text-yellow-400 mb-4">Socials</div>
     <div>
       <a href="https://facebook.com/noel.rohi" class="m-2 text-white hover:text-orange-500">Facebook</a>
