@@ -19,8 +19,8 @@ defineProps({
   <div class="flex flex-col ">
     <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900">
       <div class="text-3xl text-yellow-400">About Me</div>
-      <p class="m-2">I'm {{name}}, a developer from Pangasinan, 23 years old, and an open-source enthusiast</p>
-    <button class="button" onclick="location.href='https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fgneiru%2Fportfolio%2Fmain%2Fsrc%2Fassets%2Fresume.docx&wdOrigin=BROWSELINK';">Resume</button>
+      <p class="m-2">I'm {{name}}, a developer from Pangasinan, 23 years old.<br>I create websites for my own necessity of the games I had been playing</p>
+    <button class="button" onclick="location.href='./src/assets/Resume.pdf';">Download Resume</button>
 
     </div>
     <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900">
@@ -29,8 +29,7 @@ defineProps({
         JavaScript
         Python
         Php
-        C++
-        
+        C++  
       </div>
       <div class="m-2">
         Vue.js
@@ -41,38 +40,38 @@ defineProps({
     </div>
     <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900">
       <div class="text-3xl text-yellow-400 m-4">Projects</div>
-      <div class="flex flex-wrap">
-        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg lg:w-1/2">
+      <div class="grid grid-cols-2 gap-4">
+        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg ">Personal Health Care Guide</div>
           <a href="http://youtube.com/watch?v=_PT9XjHJU2M" target="_blank" rel="noopener noreferrer">
             <img :src="health" alt="" class="p-2">
           </a>
         </span>
-        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg lg:w-1/2">
+        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg ">Child Growth Monitoring and Malnutrition System</div>
           <a :href="cgs" target="_blank" rel="noopener noreferrer">
             <img :src="cgs" alt="" class="p-2">
           </a>
         </span>
-        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg lg:w-1/2">
+        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg">Bounty Experience Calculator</div>
           <a href="https://gneiru.github.io/vite-exp-calculator/" target="_blank" rel="noopener noreferrer">
             <img :src="calc" alt="" class="p-2">
           </a>
         </span >
-        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg lg:w-1/2">
+        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg">Raid Map Generator</div>
           <a href="https://gneiru.github.io/raid-maps/" target="_blank" rel="noopener noreferrer">
             <img :src="raidmap" alt="" class="p-2">
           </a>
         </span>
-        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg lg:w-1/2">
+        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg">Guardian Tales Heroes</div>
           <a href="https://gneiru.github.io/gt-search/" target="_blank" rel="noopener noreferrer">
             <img :src="gt" alt="" class="p-2">
           </a>
         </span>
-        <span class="bg-[#3C4049] p-4 shadow-inner shadow-gray-900 rounded-lg lg:w-1/2">
+        <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg">Orca Discord Bot</div>
           <a href="https://shidou-bot.github.io/" target="_blank" rel="noopener noreferrer">
             <img :src="orca" alt="" class="p-2">
@@ -85,10 +84,10 @@ defineProps({
   <div class="bg-[#3E4451] m-4 p-2 rounded-lg shadow-lg shadow-slate-900 break-words">
     <div class="text-3xl text-yellow-400 mb-4">Socials</div>
     <div>
-      <a href="https://facebook.com/noel.rohi" class="m-2 text-black hover:text-white">Facebook</a>
-      <a href="https://linkedin.com/in/gneiru" class="m-2 text-black hover:text-white">LinkedIn</a>
-      <a href="https://github.com/gneiru" class="m-2 text-black hover:text-white">Github</a>
-      <a href="https://instagram.com/nelrohg" class="m-2 text-black hover:text-white">Instagram</a>
+      <a href="https://facebook.com/noel.rohi" class="m-2 text-white hover:text-orange-500">Facebook</a>
+      <a href="https://linkedin.com/in/gneiru" class="m-2 text-white hover:text-orange-500">LinkedIn</a>
+      <a href="https://github.com/gneiru" class="m-2 text-white hover:text-orange-500">Github</a>
+      <a href="https://instagram.com/nelrohg" class="m-2 text-white hover:text-orange-500">Instagram</a>
     </div>
   </div>
 </div>
