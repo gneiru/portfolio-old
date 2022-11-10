@@ -55,7 +55,7 @@ defineProps({
         </span>
         <span class="bg-[#3C4049] shadow-inner shadow-gray-900 rounded-lg">
           <div class="text-lg">Bounty Experience Calculator</div>
-          <a href="https://gneiru.github.io/vite-exp-calculator/" target="_blank" rel="noopener noreferrer">
+          <a href="https://gneiru.github.io/exp-calculator/" target="_blank" rel="noopener noreferrer">
             <img :src="calc" alt="" class="p-2">
           </a>
         </span >
