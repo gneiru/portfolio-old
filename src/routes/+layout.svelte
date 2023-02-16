@@ -33,9 +33,9 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<ul class="flex flex-row gap-4">
-					{#each navTrails as {href, str}}
+					{#each navTrails as { href, str }}
 						<li>
-							<a href={href}>{str}</a>
+							<a {href}>{str}</a>
 						</li>
 					{/each}
 					<li>
@@ -45,7 +45,9 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
+
 	<slot />
+
 	<svelte:fragment slot="pageFooter">
 		<Footer />
 	</svelte:fragment>

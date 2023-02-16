@@ -3,5 +3,5 @@
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>Rohi — {title}</title>
 </svelte:head>

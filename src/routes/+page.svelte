@@ -2,7 +2,7 @@
 <script>
 	import { IconBrandGithub, IconBrandLinkedin, IconBrandYoutube } from '@tabler/icons-svelte';
 
-	let title = 'Rohi';
+	let title = 'Home';
 	let imgSRC = 'https://avatars.githubusercontent.com/u/105811202';
 	let texts = {
 		h1: "Hi, I'm Rohi",
@@ -11,9 +11,8 @@
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>Rohi — {title}</title>
 </svelte:head>
-
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center justify-center">
 		<h1 class="font-bold">{texts.h1}</h1>
@@ -32,7 +31,6 @@
 		</div>
 	</div>
 </div>
-
 <style lang="postcss">
 	.img-bg {
 		@apply w-60 h-60 md:w-80 md:h-80;
