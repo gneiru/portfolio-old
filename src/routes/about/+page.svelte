@@ -17,10 +17,10 @@
 	<title>Rohi — {title}</title>
 </svelte:head>
 
-<div class="container">
+<div class="container space-y-8">
 	<h1>{title}</h1>
 	<p class="indent-8 text-justify">{AboutMe}</p>
-	<h2 class="my-8">Skills</h2>
+	<h2>Skills</h2>
 
 	<Accordion spacing="space-y-4">
 		<AccordionItem open>
@@ -45,7 +45,7 @@
 				</ul>
 			</svelte:fragment>
 		</AccordionItem>
-		<AccordionItem>
+		<AccordionItem open>
 			<svelte:fragment slot="lead"><IconBrandMongodb/></svelte:fragment>
 			<svelte:fragment slot="summary">Databases</svelte:fragment>
 			<svelte:fragment slot="content">
